@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+
+<title>Animiforms</title>
+
+<head>
+
+<style>
+
+h2 
+{
+  
+margin:0px;
+  
+background:coral;
+  
+height:75px;
+  
+  width:450px;
+ 
+   text-align:center;
+ 
+   border-radius: 10px;
+
+}
+
+form
+{
+  
+  padding:100px;
+  
+  margin:05px;
+}
+
+body
+{
+   
+ background-color:black;
+  
+  color:white;
+}
+
+input[type=button], input[type=submit], input[type=reset]
+
+{
+  
+background-color:#F67280;
+  
+border-radius:10px;
+  
+color: white;
+ 
+ padding: 16px 32px;
+ 
+ margin: 4px 2px;
+ 
+ cursor: pointer;
+  
+}
+</style>
+
+</head>
+
+<body>
+
+<h2 id="heading">ANIMI-FORMS</h2>
+<br>
+<form>
+ 
+ <label for="ANIMI-NAME">ANIMI-Name</label><br><br>
+ 
+ <input type="text" id="nameTextBox" name="nameTextBox">
+ <br><br><br><br>
+ 
+ <label for="ANIMI-(ORIGIN-COUNTRY)">ANIMI-(ORIGIN-COUNTRY)</label><br><br>
+  
+<input type="text" id="countryTextBox" name="countryTextBox"><br><br><br><br>
+ 
+ <label for="No of episodes">No of Episodes</label><br><br>
+ 
+ <input type="text" id="noOfEpisodesTextbox" name="noOfEpisodesTextbox"><br><br><br><br>
+  
+
+  <label for="YOUR RATING" >YOUR RATING</label></label><br><br>
+  
+<input type="text" id="yourRatingTextBox" name="yourRatingTextBox"><br><br><br><br>
+  <label for="awards">Awards</label></label><br><br>
+ 
+ <input type="text" id="awardsTextBox" name="awardsTextBox"><br><br><br><br><br>
+
+  <label for="Description about ANIMI">Description about ANIMI</label></label><br><br>
+
+  <input type="text" id="descriptionTextBox" name="descriptionTextBox"><br><br><br><br>
+  
+<input type="submit" value="Submit">
+
+</form>
+
+</body>
+
+</html>
